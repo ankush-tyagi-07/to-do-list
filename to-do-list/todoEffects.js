@@ -121,6 +121,7 @@ list.addEventListener("click", function(event){
     else if(elementJob == "delete"){
         removeToDo(element);
     }
+    localStorage.setItem("TODO", JSON.stringify(LIST));
 });
 
 
